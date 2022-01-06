@@ -1,0 +1,33 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "Portfolio Maxim Snoeys",
+  "main": "gulpfile.js",
+  "scripts": {
+    "compile": "npx tailwindcss -i dist/css/main.css -o dist/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim-Snoeys/PortfolioV2.git"
+  },
+  "keywords": [
+    "Maxim Snoeys",
+    "Portfolio"
+  ],
+  "author": "Maxim Snoeys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxim-Snoeys/PortfolioV2/issues"
+  },
+  "homepage": "https://github.com/Maxim-Snoeys/PortfolioV2#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "browser-sync": "^2.27.7",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "tailwindcss": "^3.0.11"
+  },
+  "dependencies": {
+    "postcss": "^8.4.5"
+  }
+}
