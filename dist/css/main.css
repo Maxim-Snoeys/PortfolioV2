@@ -7,3 +7,20 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
+section::-webkit-scrollbar {
+    width: 8px;
+    /* width of the entire scrollbar */
+}
+
+section::-webkit-scrollbar-track {
+    background: #17171E;
+    /* color of the tracking area */
+}
+
+section::-webkit-scrollbar-thumb {
+    background-color: #AE83A5;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+}
