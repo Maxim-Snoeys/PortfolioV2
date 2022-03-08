@@ -24,3 +24,7 @@ section::-webkit-scrollbar-thumb {
     border-radius: 20px;
     /* roundness of the scroll thumb */
 }
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    background-color: lightgrey;
+}

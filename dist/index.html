@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     <link rel="stylesheet" href="./css/style.css">
@@ -18,7 +18,7 @@
 </head>
 <body class="bg-darkblack text-lightgrey overflow-hidden h-screen flex">
 
-<nav class="hidden md:inline-flex flex items-center border-r-4 border-lightpurple px-32 overflow-y-scroll h-screen scrollbar-hide">
+<nav class="hidden xl:inline-flex flex items-center border-r-4 border-lightpurple px-32 overflow-y-scroll h-screen scrollbar-hide">
     <div class="space-y-4 flex flex-col font-titel">
         <a href="#home" class="cursor-pointer text-2xl">Home</a>
         <a href="#about" class="cursor-pointer text-2xl">About Me</a>
@@ -28,7 +28,7 @@
     </div>
 </nav>
 
-<nav class="md:hidden w-full bg-darkpurple tracking-widest flex flex-col items-center top-0 fixed">
+<nav class="xl:hidden w-full bg-darkpurple tracking-widest flex flex-col items-center top-0 fixed">
     <div class="w-full self-start flex flex-row flex-no-wrap justify-between items-center">
         <p class="no-underline pl-4 py-1 cursor-pointer" onclick="scroller('home')">
             <span class="font-bold font-titel text-2xl">Maxim Snoeys</span>
@@ -84,35 +84,40 @@
         </div>
     </div>
 
-    <div id="about" class="min-h-screen xl:px-16 flex">
+    <div id="about" class="min-h-screen xl:px-16 flex justify-center">
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">About me</h1>
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+                About me</h1>
 
             <div class="grid grid-cols-10">
-                <div class="col-span-10 md:col-span-7">
+                <div class="col-span-10 xl:col-span-7">
                     <h2 class="text-2xl xl:text-3xl text-center font-titel uppercase pb-8">Let me introduce myself</h2>
 
-                    <div class="space-y-4 text-justify px-8 md:px-16">
-                        <p>Hi, I'm Maxim Snoeys, student Application Development in Geel. My interest mostly lay in the webdevelopment side of
+                    <div class="space-y-4 text-justify px-8 xl:px-16">
+                        <p>Hi, I'm Maxim Snoeys, student Application Development in Geel. My interest mostly lay in the
+                            webdevelopment side of
                             things.</p>
-                        <p>With my knowledge of electronics from highschool I like to make some stuff for my DIY racing simulator and drone. Also, I like
+                        <p>With my knowledge of electronics from highschool I like to make some stuff for my DIY racing
+                            simulator and drone. Also, I like
                             to cook delicious things!</p>
                         <p>This portfolio is a work in progress, there might be some rough edges here and there :)</p>
                     </div>
                 </div>
 
-                <div class="col-span-10 md:col-span-3 pt-16 md:pt-0">
+                <div class="col-span-10 xl:col-span-3 pt-16 xl:pt-0">
                     <h2 class="text-2xl xl:text-3xl text-center font-titel uppercase pb-8">Contact</h2>
 
                     <div class="flex">
                         <div class="space-y-4 flex flex-col items-center m-auto">
-                            <a href="https://www.linkedin.com/in/maxim-snoeys-6130301b8/" target="_blank" rel="noopener" aria-label="Linkedin Profile"
+                            <a href="https://www.linkedin.com/in/maxim-snoeys-6130301b8/" target="_blank" rel="noopener"
+                               aria-label="Linkedin Profile"
                                class="mr-auto flex items-center">
                                 <i class="fab fa-linkedin fa-2x text-blue-500"></i>
                                 <span class="pl-2 text-xl">LinkedIn</span>
                             </a>
 
-                            <a href="mailto:maxim.snoeys@telenet.be" target="_blank" rel="noopener" aria-label="My Email"
+                            <a href="mailto:maxim.snoeys@telenet.be" target="_blank" rel="noopener"
+                               aria-label="My Email"
                                class="mr-auto flex items-center">
                                 <i class="fas fa-envelope-square fa-2x text-blue-500"></i>
                                 <span class="pl-2 text-xl">maxim.snoeys@telenet.be</span>
@@ -132,16 +137,18 @@
 
     <div id="cv" class="min-h-screen xl:px-8 flex justify-center">
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">CV</h1>
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+                CV</h1>
 
             <div class="text-center mb-8">
-                <a href="./assets/CV.pdf" class="font-semibold bg-darkpurple rounded-2xl px-6 py-2" target="_blank" rel="noopener">
+                <a href="./assets/CV.pdf" class="font-semibold bg-darkpurple rounded-2xl px-6 py-2" target="_blank"
+                   rel="noopener">
                     Download my CV
                 </a>
             </div>
 
-            <div class="flex flex-wrap md:flex-nowrap gap-8 mx-4 md:mx-0 justify-around">
-                <div class="w-full md:flex-initial md:w-8/12 bg-lightblack rounded-2xl py-4 px-8">
+            <div class="flex flex-wrap xl:flex-nowrap gap-8 mx-4 xl:mx-0 justify-around">
+                <div class="w-full xl:flex-initial xl:w-8/12 bg-lightblack rounded-2xl py-4 px-8">
                     <h2 class="text-3xl text-center font-titel uppercase pb-8">Tech</h2>
 
                     <div class="grid grid-cols-2">
@@ -228,7 +235,7 @@
                     </div>
                 </div>
 
-                <div class="w-full md:flex-initial md:w-4/12 bg-lightblack rounded-2xl py-4 px-8">
+                <div class="w-full md:w-6/12 xl:flex-initial xl:w-4/12 bg-lightblack rounded-2xl py-4 px-8">
                     <h2 class="text-3xl text-center font-titel uppercase pb-8">Languages</h2>
 
                     <div class="space-y-6">
@@ -279,76 +286,160 @@
         </div>
     </div>
 
-    <div id="projects" class="min-h-screen xl:px-8 flex">
+    <div id="projects" class="min-h-screen xl:px-8 flex justify-center">
+        <!-- <div class="my-auto">
+             <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+                 My Projects</h1>
+
+             <div class="grid grid-cols-1 lg:grid-cols-2">
+                 <div class="mt-12 px-8">
+                     <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
+                         <a href="pages/project1.html" target="_blank">
+                             <div id="project1"
+                                  class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
+                             >
+                                 <img src="./assets/php/php.PNG" alt="Project PHP"
+                                      class="rounded-xl mr-auto col-span-2 h-auto w-auto">
+                                 <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">Project
+                                     PHP</h2>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+
+                 <div class="mt-12 px-8">
+                     <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
+                         <a href="pages/project2.html" target="_blank">
+                             <div id="project3"
+                                  class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
+                             >
+                                 <img src="./assets/lmsounds/landing.PNG" alt="LM Sounds"
+                                      class="rounded-xl mr-auto col-span-2 h-auto w-auto">
+                                 <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
+                                     LM-Sounds</h2>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+
+                 <div class="mt-12 px-8">
+                     <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
+                         <a href="pages/project3.html" target="_blank">
+                             <div id="project2"
+                                  class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
+                             >
+                                 <img src="./assets/underconstruct.png" alt="Under Construction"
+                                      class="rounded-xl mr-auto col-span-2 h-auto w-auto">
+                                 <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
+                                     Portfolio</h2>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+
+                 <div class="mt-12 px-8">
+                     <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
+                         <a href="pages/project4.html" target="_blank">
+                             <div id="project4"
+                                  class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
+                             >
+                                 <img src="./assets/underconstruct.png" alt="Under Construction"
+                                      class="rounded-xl mr-auto col-span-2 h-auto w-auto">
+                                 <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
+                                     Beverage Rater</h2>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>-->
+
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">My Projects</h1>
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+                My Projects</h1>
+            <div class="grid grid-cols-1 xl:grid-cols-2">
+                <div class="w-96 pb-4 mb-8 3xl:mb-16 mx-auto xl:mr-4 2xl:mr-8 3xl:mr-16">
+                    <a href="pages/project1.html" target="_blank" class="">
+                        <div class="h-48">
+                            <img src="./assets/php/php.PNG" alt="PHP" class="w-full rounded-lg">
+                        </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2">
-                <div class="mt-12 px-8">
-                    <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
-                        <a href="pages/project1.html" target="_blank">
-                            <div id="project1"
-                                 class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
-                                 >
-                                <img src="./assets/php/php.PNG" alt="Project PHP" class="rounded-xl mr-auto col-span-2 h-auto w-auto">
-                                <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">Project
-                                    PHP</h2>
-                            </div>
-                        </a>
-                    </div>
+                        <div class="p-1">
+                            <h2 class="font-bold text-3xl pt-4"><span class="text-lightpurple">Project PHP</span>
+                            </h2>
+                            <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aperiam blanditiis dicta fugit inventore ipsam modi possimus quisquam reiciendis tempora
+                                totam.</p>
+                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                                Read more
+                            </a>
+                        </div>
+                    </a>
                 </div>
+                <div class="w-96 pb-4 mb-8 3xl:mb-16 mx-auto xl:ml-4 2xl:ml-8 3xl:ml-16">
+                    <a href="pages/project1.html" target="_blank" class="">
+                        <div class="h-48">
+                            <img src="./assets/lmsounds/landing.PNG" alt="PHP" class="w-full rounded-lg">
+                        </div>
 
-                <div class="mt-12 px-8">
-                    <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
-                        <a href="pages/project2.html" target="_blank">
-                            <div id="project3"
-                                 class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
-                                 >
-                                <img src="./assets/lmsounds/landing.PNG" alt="LM Sounds"
-                                     class="rounded-xl mr-auto col-span-2 h-auto w-auto">
-                                <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
-                                    LM-Sounds</h2>
-                            </div>
-                        </a>
-                    </div>
+
+                        <div class="p-1">
+                            <h2 class="font-bold text-3xl pt-4"><span class="text-lightpurple">Project PHP</span>
+                            </h2>
+                            <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aperiam blanditiis dicta fugit inventore ipsam modi possimus quisquam reiciendis tempora
+                                totam.</p>
+                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                                Read more
+                            </a>
+                        </div>
+                    </a>
                 </div>
+                <div class="w-96 pb-4 mb-8 3xl:mb-16 mx-auto xl:mr-4 2xl:mr-8 3xl:mr-16">
+                    <a href="pages/project1.html" target="_blank" class="">
+                        <div class="h-48">
+                            <img src="./assets/underconstruct.png" alt="PHP" class="w-full rounded-lg">
+                        </div>
 
-                <div class="mt-12 px-8">
-                    <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
-                        <a href="pages/project3.html" target="_blank">
-                            <div id="project2"
-                                 class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
-                                 >
-                                <img src="./assets/underconstruct.png" alt="Under Construction"
-                                     class="rounded-xl mr-auto col-span-2 h-auto w-auto">
-                                <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
-                                    Portfolio</h2>
-                            </div>
-                        </a>
-                    </div>
+                        <div class="p-1">
+                            <h2 class="font-bold text-3xl pt-4"><span class="text-lightpurple">Project PHP</span>
+                            </h2>
+                            <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aperiam blanditiis dicta fugit inventore ipsam modi possimus quisquam reiciendis tempora
+                                totam.</p>
+                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                                Read more
+                            </a>
+                        </div>
+                    </a>
                 </div>
+                <div class="w-96 pb-4 mb-8 3xl:mb-16 mx-auto xl:ml-4 2xl:ml-8 3xl:ml-16">
+                    <a href="pages/project1.html" target="_blank" class="">
+                        <div class="h-48">
+                            <img src="./assets/underconstruct.png" alt="PHP" class="w-full rounded-lg">
+                        </div>
 
-                <div class="mt-12 px-8">
-                    <div class="transform lg:hover:scale-95 duration-300 ease-in-out">
-                        <a href="pages/project4.html" target="_blank">
-                            <div id="project4"
-                                 class="border-b-4 border-r-4 border-lightpurple rounded-br-3xl hover:border-darkpurple pb-4 grid grid-cols-5 gap-4"
-                                 >
-                                <img src="./assets/underconstruct.png" alt="Under Construction"
-                                     class="rounded-xl mr-auto col-span-2 h-auto w-auto">
-                                <h2 class="text-center text-2xl lg:text-4xl col-span-3 my-auto">
-                                    Beverage Rater</h2>
-                            </div>
-                        </a>
-                    </div>
+                        <div class="p-1">
+                            <h2 class="font-bold text-3xl pt-4"><span class="text-lightpurple">Project PHP</span>
+                            </h2>
+                            <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aperiam blanditiis dicta fugit inventore ipsam modi possimus quisquam reiciendis tempora
+                                totam.</p>
+                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                                Read more
+                            </a>
+                        </div>
+                    </a>
                 </div>
             </div>
+
         </div>
     </div>
 
     <div id="internship" class="min-h-screen xl:px-8 flex">
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">Internship</h1>
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+                Internship</h1>
         </div>
     </div>
 
@@ -358,8 +449,16 @@
 </section>
 
 
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+<script>
+    let splide = new Splide('.splide', {
+        type: 'loop',
+    });
+
+    splide.mount();
+</script>
 <script>
     AOS.init({
         easing: 'ease-out-back',
