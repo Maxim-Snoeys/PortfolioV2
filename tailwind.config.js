@@ -17,7 +17,7 @@ module.exports = {
         'text': ['Raleway', 'sans-serif']
       },
       screens: {
-        '3xl': '1696px',
+        '3xl': '2100px',
       }
     },
   },

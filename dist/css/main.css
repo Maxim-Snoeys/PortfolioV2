@@ -28,3 +28,7 @@ section::-webkit-scrollbar-thumb {
 button, [type="button"], [type="reset"], [type="submit"] {
     background-color: lightgrey;
 }
+
+#menuBtn {
+    background-color: transparent;
+}
