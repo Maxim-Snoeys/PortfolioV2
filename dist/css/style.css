@@ -770,6 +770,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(174 131 165 / var(--tw-bg-opacity));
 }
 
+.bg-lightgrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 231 231 / var(--tw-bg-opacity));
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -1109,6 +1114,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
   .md\:pl-8 {
     padding-left: 2rem;
   }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1139,6 +1148,22 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .lg\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .lg\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .lg\:basis-3\/5 {
@@ -1221,6 +1246,14 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 33.333333%;
   }
 
+  .xl\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .xl\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .xl\:flex-initial {
     flex: 0 1 auto;
   }
@@ -1233,6 +1266,14 @@ button, [type="button"], [type="reset"], [type="submit"] {
     flex-wrap: nowrap;
   }
 
+  .xl\:p-8 {
+    padding: 2rem;
+  }
+
+  .xl\:p-16 {
+    padding: 4rem;
+  }
+
   .xl\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1241,6 +1282,16 @@ button, [type="button"], [type="reset"], [type="submit"] {
   .xl\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:text-8xl {
@@ -1267,6 +1318,26 @@ button, [type="button"], [type="reset"], [type="submit"] {
   .\32xl\:ml-8 {
     margin-left: 2rem;
   }
+
+  .\32xl\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .\32xl\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .\32xl\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .\32xl\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .\32xl\:pb-24 {
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 2100px) {
@@ -1285,6 +1356,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .\33xl\:ml-16 {
     margin-left: 4rem;
+  }
+
+  .\33xl\:w-10\/12 {
+    width: 83.333333%;
   }
 
   .\33xl\:basis-3\/5 {

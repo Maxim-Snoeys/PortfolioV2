@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Maxim Snoeys.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     <link rel="stylesheet" href="./css/style.css">
@@ -39,19 +39,19 @@
         </button>
     </div>
     <div id="menu" class="w-full self-end flex-col h-full pt-4 hidden text-center">
-        <p class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <p class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('about')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">About Me</span>
         </p>
-        <p class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <p class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('cv')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">CV</span>
         </p>
-        <p class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <p class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('projects')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">Projects</span>
         </p>
-        <p class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <p class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('internship')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">Internship</span>
         </p>
@@ -61,14 +61,14 @@
 
 <section class="md:flex-grow font-text overflow-y-scroll">
     <div id="home" class="min-h-screen grid grid-cols-5 flex xl:px-8">
-        <div class="col-span-5 md:col-span-3 text-center my-auto">
+        <div class="my-auto col-span-5 md:col-span-3 text-center">
             <div class="font-titel uppercase">
                 <h1 class="text-6xl lg:text-7xl xl:text-8xl">Maxim Snoeys</h1>
                 <h2 class="text-xl lg:text-2xl xl:text-3xl text-lightpurple tracking-widest pt-4">Webdeveloper</h2>
             </div>
 
             <div class="md:hidden pt-8 flex">
-                <img src="./assets/profile.png" alt="Profilepicture Maxim Snoeys" class="m-auto">
+                <img src="./assets/profile.png" alt="Profilepicture Maxim Snoeys" class="m-auto w-auto h-auto">
             </div>
 
             <div class="pt-8 md:pt-16">
@@ -80,17 +80,17 @@
         </div>
 
         <div class="hidden md:block md:col-span-2 m-auto order-first md:order-last">
-            <img src="./assets/profile.png" alt="Profile picture Maxim Snoeys">
+            <img src="./assets/profile.png" alt="Profile picture Maxim Snoeys" class="m-auto h-auto">
         </div>
     </div>
 
-    <div id="about" class="min-h-screen xl:px-16 flex justify-center">
+    <div id="about" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 md:pb-12 2xl:pb-24">
                 About me</h1>
 
-            <div class="grid grid-cols-10">
-                <div class="col-span-10 lg:col-span-6">
+            <div class="flex flex-row flex-wrap">
+                <div class="w-full lg:w-8/12">
                     <h2 class="text-2xl xl:text-3xl text-center font-titel uppercase pb-8">Let me introduce myself</h2>
 
                     <div class="space-y-4 text-justify px-8 xl:px-16">
@@ -104,10 +104,10 @@
                     </div>
                 </div>
 
-                <div class="col-span-10 lg:col-span-4 pt-16 lg:pt-0">
+                <div class="w-full lg:w-4/12 pt-16 lg:pt-0">
                     <h2 class="text-2xl xl:text-3xl text-center font-titel uppercase pb-8">Contact</h2>
 
-                    <div class="flex">
+                    <div class="flex flex-col">
                         <div class="space-y-4 flex flex-col items-center m-auto">
                             <a href="https://www.linkedin.com/in/maxim-snoeys-6130301b8/" target="_blank" rel="noopener"
                                aria-label="Linkedin Profile"
@@ -135,9 +135,9 @@
         </div>
     </div>
 
-    <div id="cv" class="min-h-screen xl:px-8 flex justify-center">
-        <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+    <div id="cv" class="min-h-screen xl:p-16 flex justify-center">
+        <div class="my-auto 2xl:w-11/12 3xl:w-10/12">
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 md:pb-12 2xl:pb-24">
                 CV</h1>
 
             <div class="text-center mb-8">
@@ -148,7 +148,7 @@
             </div>
 
             <div class="flex flex-wrap xl:flex-nowrap gap-8 mx-4 xl:mx-0 justify-around">
-                <div class="w-full xl:flex-initial xl:w-8/12 py-4">
+                <div class="w-full xl:flex-initial xl:w-7/12 2xl:w-8/12 py-4">
                     <h2 class="text-3xl text-center font-titel uppercase pb-8">Tech</h2>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
@@ -322,8 +322,7 @@
                     </div>-->
                 </div>
 
-
-                <div class="w-full md:w-6/12 xl:flex-initial xl:w-4/12 py-4">
+                <div class="w-full xl:flex-initial xl:w-5/12 2xl:w-4/12 py-4">
                     <h2 class="text-3xl text-center font-titel uppercase pb-8">Languages</h2>
 
                     <div class="grid grid-cols-2 gap-4">
@@ -353,7 +352,7 @@
                             </div>
                             <div class="text-center mt-4">
                                 <h3 class="text-2xl font-semibold">German</h3>
-                                <p>Basic understanding</p>
+                                <p>Basic knowledge</p>
                             </div>
                         </div>
 
@@ -363,7 +362,7 @@
                             </div>
                             <div class="text-center mt-4">
                                 <h3 class="text-2xl font-semibold">French</h3>
-                                <p>Basic understanding</p>
+                                <p>Basic knowledge</p>
                             </div>
                         </div>
                     </div>
@@ -416,7 +415,7 @@
         </div>
     </div>
 
-    <div id="projects" class="min-h-screen xl:px-8 flex justify-center">
+    <div id="projects" class="min-h-screen xl:p-16 flex justify-center">
         <!-- <div class="my-auto">
              <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
                  My Projects</h1>
@@ -485,7 +484,7 @@
          </div>-->
 
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 md:pb-12 2xl:pb-24">
                 My Projects</h1>
             <div class="grid grid-cols-1 lg:grid-cols-2 3xl:grid-cols-4 gap-8">
                 <div class="w-80 md:w-96 mx-auto bg-lightblack p-8 rounded-2xl">
@@ -559,9 +558,9 @@
         </div>
     </div>
 
-    <div id="internship" class="min-h-screen xl:px-8 flex">
+    <div id="internship" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto">
-            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 pt-24 md:pb-24 md:pt-0">
+            <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 md:pb-12 2xl:pb-24">
                 Internship</h1>
         </div>
     </div>
@@ -572,16 +571,8 @@
 </section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-<script>
-    let splide = new Splide('.splide', {
-        type: 'loop',
-    });
-
-    splide.mount();
-</script>
 <script>
     AOS.init({
         easing: 'ease-out-back',
@@ -591,8 +582,8 @@
 
 <script>
     function navToggle() {
-        var btn = document.getElementById('menuBtn');
-        var nav = document.getElementById('menu');
+        const btn = document.getElementById('menuBtn');
+        const nav = document.getElementById('menu');
 
         btn.classList.toggle('open');
         nav.classList.toggle('flex');

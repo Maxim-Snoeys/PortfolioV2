@@ -37,19 +37,19 @@
         </button>
     </div>
     <div id="menu" class="w-full self-end flex-col h-full pt-4 hidden text-center">
-        <a href="../index.html#about" class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <a href="../index.html#about" class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle()">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">About Me</span>
         </a>
-        <a href="../index.html#cv" class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <a href="../index.html#cv" class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('cv')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">CV</span>
         </a>
-        <a href="../index.html#projects" class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <a href="../index.html#projects" class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('projects')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">Projects</span>
         </a>
-        <a href="../index.html#internship" class="text-dark font-bold text-lg w-full no-underline py-2 cursor-pointer"
+        <a href="../index.html#internship" class="text-dark font-bold text-lg w-full no-underline py-4 cursor-pointer"
            onclick="navToggle(), scroller('internship')">
             <span class="transition ease-in-out duration-300 text-2xl font-titel">Internship</span>
         </a>
@@ -91,8 +91,8 @@
 
 <script>
     function navToggle() {
-        var btn = document.getElementById('menuBtn');
-        var nav = document.getElementById('menu');
+        const btn = document.getElementById('menuBtn');
+        const nav = document.getElementById('menu');
 
         btn.classList.toggle('open');
         nav.classList.toggle('flex');
