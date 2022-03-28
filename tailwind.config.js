@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         'titel': ['Anton', 'sans-serif'],
-        'text': ['Raleway', 'sans-serif']
+        'text': ['Nunito', 'sans-serif']
       },
       screens: {
         '3xl': '2100px',

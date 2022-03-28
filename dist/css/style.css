@@ -528,10 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.inline-flex {
-  display: inline-flex;
-}
-
 .grid {
   display: grid;
 }
@@ -732,9 +728,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.25rem;
 }
 
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .py-1 {
@@ -762,9 +758,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .pl-4 {
@@ -803,14 +799,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.pl-14 {
-  padding-left: 3.5rem;
-}
-
-.pr-28 {
-  padding-right: 7rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -828,7 +816,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-text {
-  font-family: Raleway, sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 .text-2xl {
@@ -934,10 +922,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 300ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -995,16 +979,6 @@ button, [type="button"], [type="reset"], [type="submit"] {
 .hover\:bg-darkpurple:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(77 58 77 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-darkblack:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 30 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-lightblack:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(36 33 42 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {
@@ -1105,32 +1079,16 @@ button, [type="button"], [type="reset"], [type="submit"] {
     margin-bottom: 2rem;
   }
 
+  .lg\:mr-8 {
+    margin-right: 2rem;
+  }
+
   .lg\:w-8\/12 {
     width: 66.666667%;
   }
 
   .lg\:w-4\/12 {
     width: 33.333333%;
-  }
-
-  .lg\:basis-3\/5 {
-    flex-basis: 60%;
-  }
-
-  .lg\:basis-2\/5 {
-    flex-basis: 40%;
-  }
-
-  .lg\:basis-3\/6 {
-    flex-basis: 50%;
-  }
-
-  .lg\:basis-4\/5 {
-    flex-basis: 80%;
-  }
-
-  .lg\:basis-1\/5 {
-    flex-basis: 20%;
   }
 
   .lg\:basis-2\/3 {
@@ -1143,6 +1101,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -1159,14 +1121,6 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .lg\:pt-0 {
     padding-top: 0px;
-  }
-
-  .lg\:pr-8 {
-    padding-right: 2rem;
-  }
-
-  .lg\:pr-16 {
-    padding-right: 4rem;
   }
 
   .lg\:text-7xl {
