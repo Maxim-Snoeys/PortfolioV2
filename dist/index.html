@@ -15,7 +15,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://maximsnoeys.be/"/>
 
-    <meta name="google-site-verification" content="KikB8yJgjbW_uAdRVotAMob6BIDCPdX3tLdTug7R7DU" />
+    <meta name="google-site-verification" content="KikB8yJgjbW_uAdRVotAMob6BIDCPdX3tLdTug7R7DU"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,8 +71,9 @@
 </nav>
 
 
-<section class="md:flex-grow font-text overflow-y-scroll">
-    <div id="home" class="min-h-screen grid grid-cols-5 flex xl:px-8" data-aos="fade-in" data-aos-easing="ease-in-out">
+<div class="md:flex-grow font-text overflow-y-scroll">
+    <section id="home" class="min-h-screen grid grid-cols-5 flex xl:px-8" data-aos="fade-in"
+             data-aos-easing="ease-in-out">
         <div class="my-auto col-span-5 md:col-span-3 text-center">
             <div class="font-titel uppercase">
                 <h1 class="text-6xl lg:text-7xl xl:text-8xl">Maxim Snoeys</h1>
@@ -84,7 +85,8 @@
             </div>
 
             <div class="pt-8 md:pt-16">
-                <a href="#about" class="font-semibold bg-darkpurple rounded-2xl px-6 py-2 hover:bg-lightpurple hover:text-black transform transition duration-300">
+                <a href="#about"
+                   class="font-semibold bg-darkpurple rounded-2xl px-6 py-2 hover:bg-lightpurple hover:text-black transform transition duration-300">
                     Find more about me
                 </a>
             </div>
@@ -94,9 +96,9 @@
         <div class="hidden md:block md:col-span-2 m-auto order-first md:order-last">
             <img src="./assets/profile.png" alt="Profile picture Maxim Snoeys" class="m-auto h-auto">
         </div>
-    </div>
+    </section>
 
-    <div id="about" class="min-h-screen xl:p-16 flex justify-center" >
+    <section id="about" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto">
             <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase pb-8 md:pb-12 2xl:pb-24">
                 About me</h1>
@@ -107,10 +109,12 @@
 
                     <div class="space-y-4 text-justify mx-4">
                         <div class="bg-lightblack p-8 rounded-2xl">
-                            <p>Hi, I'm Maxim Snoeys, student Application Development in Geel. My interest is basically only web-development.</p>
+                            <p>Hi, I'm Maxim Snoeys, student Application Development in Geel. My interest is basically
+                                only web-development.</p>
                             <p>With my knowledge of electronics from highschool I like to make some stuff for my DIY
                                 racing simulator and drone. Also, I like to cook delicious things!</p>
-                            <p class="pt-4">Ohh by the way, this portfolio is a work in progress, there might be some rough edges here and there
+                            <p class="pt-4">Ohh by the way, this portfolio is a work in progress, there might be some
+                                rough edges here and there
                                 :)</p>
                         </div>
                     </div>
@@ -145,15 +149,17 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="cv" class="min-h-screen xl:p-16 flex justify-center">
+    <section id="cv" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto 2xl:w-11/12 3xl:w-10/12">
             <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase mt-16 xl:mt-0 pb-8 md:pb-12 2xl:pb-24">
                 CV</h1>
 
             <div class="text-center mb-8">
-                <a href="./assets/CV.pdf" class="font-semibold bg-darkpurple rounded-2xl px-6 py-2 hover:bg-lightpurple hover:text-black transform transition duration-300" target="_blank"
+                <a href="./assets/CV.pdf"
+                   class="font-semibold bg-darkpurple rounded-2xl px-6 py-2 hover:bg-lightpurple hover:text-black transform transition duration-300"
+                   target="_blank"
                    rel="noopener">
                     Download my CV
                 </a>
@@ -296,10 +302,65 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div id="projects" class="min-h-screen xl:p-16 flex justify-center">
+            <div class="flex flex-wrap xl:flex-nowrap gap-8 mx-4 xl:mx-0 justify-around mt-8">
+                <div class="w-full xl:flex-initial xl:w-6/12 py-4">
+                    <h2 class="text-3xl text-center font-titel uppercase pb-8">Experience</h2>
+
+                    <div class="grid grid-cols-1 gap-y-4">
+                        <div class="bg-lightblack rounded-2xl p-8">
+                            <h3 class="font-bold text-2xl">Store employee</h3>
+                            <p>Student</p>
+                            <div class="pt-4 gap-y-4">
+                                <p><i class="fas fa-map-marker-alt mr-4"></i>Action Herentals</p>
+                                <p><i class="fas fa-calendar-alt mr-4"></i>Since August 2017</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-lightblack rounded-2xl p-8">
+                            <h3 class="font-bold text-2xl">Waiter</h3>
+                            <p>Student</p>
+                            <div class="pt-4 gap-y-4">
+                                <p><i class="fas fa-map-marker-alt mr-4"></i>De Wijnkelder Olen</p>
+                                <p><i class="fas fa-calendar-alt mr-4"></i>June 2016 - June 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full xl:flex-initial xl:w-6/12 py-4">
+                    <h2 class="text-3xl text-center font-titel uppercase pb-8">School</h2>
+
+                    <div class="grid grid-cols-1 gap-y-4">
+                        <div class="bg-lightblack rounded-2xl p-8">
+                            <h3 class="font-bold text-2xl">Bachelor Information Technology (Exchange)</h3>
+                            <div class="pt-4 gap-y-4">
+                                <p><i class="fas fa-map-marker-alt mr-4"></i>Jyväskylä University of Applied Sciences</p>
+                                <p><i class="fas fa-calendar-alt mr-4"></i>Augustus 2021 - December 2021</p>
+                            </div>
+                        </div>
+                        <div class="bg-lightblack rounded-2xl p-8">
+                            <h3 class="font-bold text-2xl">Bachelor Toegepaste Informatica</h3>
+                            <p>Application development</p>
+                            <div class="pt-4 gap-y-4">
+                                <p><i class="fas fa-map-marker-alt mr-4"></i>Thomas More Kempen</p>
+                                <p><i class="fas fa-calendar-alt mr-4"></i>Since September 2019</p>
+                            </div>
+                        </div>
+                        <div class="bg-lightblack rounded-2xl p-8">
+                            <h3 class="font-bold text-2xl">Elektricity - Elektronics</h3>
+                            <div class="pt-4 gap-y-4">
+                                <p><i class="fas fa-map-marker-alt mr-4"></i>Technisch Instituut Scheppers</p>
+                                <p><i class="fas fa-calendar-alt mr-4"></i>September 2012 - June 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto">
             <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase mt-16 xl:mt-0 pb-8 md:pb-12 2xl:pb-24">
                 My Projects</h1>
@@ -315,9 +376,9 @@
                             <p class="py-4 text-justify h-36 md:h-28">For the course 'Project PHP' me and my team (KM-B)
                                 made a
                                 webapplication for the swimming pool of our client.</p>
-                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                            <span class="border-b-4 border-lightpurple">
                                 Read more
-                            </a>
+                            </span>
                         </div>
                     </a>
                 </div>
@@ -332,9 +393,9 @@
                             </h2>
                             <p class="py-4 text-justify h-36 md:h-28">Me and Michiel Van Eynde made this website for
                                 LM-Sounds.</p>
-                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple ">
+                            <span class="border-b-4 border-lightpurple">
                                 Read more
-                            </a>
+                            </span>
                         </div>
                     </a>
                 </div>
@@ -350,9 +411,9 @@
                             <p class="py-4 text-justify h-36 md:h-28">A PWA for a course during my exchange in Finland.
                                 Rating
                                 different kinds of beverages (beer, wine, champagne).</p>
-                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                            <span class="border-b-4 border-lightpurple">
                                 Read more
-                            </a>
+                            </span>
                         </div>
                     </a>
                 </div>
@@ -368,17 +429,17 @@
                             <p class="py-4 text-justify h-36 md:h-28">Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit.
                                 Aperiam blanditiis dicta fugit inventore ipsam modi possimus.</p>
-                            <a href="pages/project1.html" target="_blank" class="border-b-4 border-lightpurple">
+                            <span class="border-b-4 border-lightpurple">
                                 Read more
-                            </a>
+                            </span>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="internship" class="min-h-screen xl:p-16 flex justify-center">
+    <section id="internship" class="min-h-screen xl:p-16 flex justify-center">
         <div class="my-auto">
             <h1 class="text-5xl xl:text-6xl text-center text-lightpurple font-titel uppercase mt-16 xl:mt-0 pb-8 md:pb-12 2xl:pb-24">
                 Internship</h1>
@@ -409,7 +470,8 @@
                         facilis illum iure molestiae molestias neque omnis quaerat quo repellat temporibus tenetur ut
                         vero.</p>
 
-                    <p class="pt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aspernatur blanditiis
+                    <p class="pt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                        aspernatur blanditiis
                         debitis dicta doloribus eos est eveniet ipsa labore maxime molestiae, molestias provident, quis
                         veritatis. Accusantium, alias aperiam, culpa cumque delectus deserunt, dolorum eligendi enim
                         facilis illum iure molestiae molestias neque omnis quaerat quo repellat temporibus tenetur ut
@@ -417,12 +479,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="bg-lightpurple text-darkblack">
         <p class="text-center font-titel text-2xl py-2">&copy; <span id="jaar"></span> Maxim Snoeys</p>
     </footer>
-</section>
+</div>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -449,7 +511,27 @@
     }
 
     document.getElementById("jaar").innerHTML = new Date().getFullYear();
-
 </script>
+
+<!--<script>
+    let section = document.querySelectorAll("section");
+    let navLinks = document.querySelectorAll("nav div a");
+
+    window.onscroll = () => {
+        section.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute("id");
+
+            if(top >= offset && top < offset + height) {
+                navLinks.forEach(links => {
+                    links.classList.remove('bg-blue-700');
+                    document.querySelector("nav div a[href*=" + id + "]").classList.add("bg-blue-700");
+                })
+            }
+        })
+    }
+</script>-->
 </body>
 </html>
