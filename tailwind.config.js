@@ -9,15 +9,16 @@ module.exports = {
         'lightpurple': "#AE83A5",
         'lightgrey': "#E7E7E7",
       },
-      textTransform: {
-
-      },
       fontFamily: {
         'titel': ['Anton', 'sans-serif'],
         'text': ['Nunito', 'sans-serif']
       },
       screens: {
         '3xl': '2100px',
+      },
+      maxWidth: {
+        '7-5xl' : '1600px',
+        '8xl': '1900px',
       }
     },
   },

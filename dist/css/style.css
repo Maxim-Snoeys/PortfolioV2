@@ -468,6 +468,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
@@ -478,11 +483,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -490,6 +490,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-auto {
   margin-left: auto;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .mr-auto {
@@ -522,10 +526,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .block {
@@ -627,23 +627,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-@-webkit-keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .cursor-pointer {
@@ -795,9 +778,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.25rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .py-1 {
@@ -823,11 +806,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .pl-4 {
@@ -963,23 +941,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-darkblack {
-  --tw-text-opacity: 1;
-  color: rgb(23 23 30 / var(--tw-text-opacity));
-}
-
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
+.text-darkblack {
+  --tw-text-opacity: 1;
+  color: rgb(23 23 30 / var(--tw-text-opacity));
+}
+
 .no-underline {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-}
-
-.opacity-80 {
-  opacity: 0.8;
 }
 
 .opacity-70 {
@@ -1303,12 +1277,24 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 83.333333%;
   }
 
+  .\33xl\:max-w-8xl {
+    max-width: 1900px;
+  }
+
+  .\33xl\:max-w-7-5xl {
+    max-width: 1600px;
+  }
+
   .\33xl\:basis-3\/5 {
     flex-basis: 60%;
   }
 
   .\33xl\:basis-2\/5 {
     flex-basis: 40%;
+  }
+
+  .\33xl\:basis-1\/2 {
+    flex-basis: 50%;
   }
 
   .\33xl\:grid-cols-4 {
