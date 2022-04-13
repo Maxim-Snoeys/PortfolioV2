@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'darkblack': '#17171E',
-        'lightblack': '#24212A',
+        'lightblack': '#2d2730',
         'darkpurple': '#4D3A4D',
         'lightpurple': "#AE83A5",
         'lightgrey': "#E7E7E7",
@@ -19,6 +19,9 @@ module.exports = {
       maxWidth: {
         '7-5xl' : '1600px',
         '8xl': '1900px',
+      },
+      padding: {
+        '30': '7.9rem',
       }
     },
   },
