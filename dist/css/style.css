@@ -887,12 +887,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: justify;
 }
 
-.font-titel {
-  font-family: Anton, sans-serif;
-}
-
 .font-text {
   font-family: Nunito, sans-serif;
+}
+
+.font-title {
+  font-family: Anton, sans-serif;
 }
 
 .text-2xl {

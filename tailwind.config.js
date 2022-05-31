@@ -10,7 +10,7 @@ module.exports = {
         'lightgrey': "#E7E7E7",
       },
       fontFamily: {
-        'titel': ['Anton', 'sans-serif'],
+        'title': ['Anton', 'sans-serif'],
         'text': ['Nunito', 'sans-serif']
       },
       screens: {
