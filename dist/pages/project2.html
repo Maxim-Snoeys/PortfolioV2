@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="../css/splide.min.css">
+
     <link rel="stylesheet" href="../css/style.css">
 
     <title>LM-Sounds | Portfolio Maxim Snoeys</title>
@@ -19,23 +21,22 @@
 <body class="bg-darkblack text-lightgrey overflow-hidden h-screen flex">
 
 <nav class="hidden md:flex items-center border-r-4 border-lightpurple pl-24 pr-30 overflow-y-scroll h-screen scrollbar-hide">
-    <div class="space-y-4 flex flex-col font-title">
-        <a href="../index.html#home" class="cursor-pointer text-2xl">Home</a>
-        <a href="../index.html#about" class="cursor-pointer text-2xl">About Me</a>
-        <a href="../index.html#cv" class="cursor-pointer text-2xl">CV</a>
-        <a href="../index.html#projects" class="cursor-pointer text-2xl">Projects</a>
-        <a href="../index.html#internship" class="cursor-pointer text-2xl">Internship</a>
+    <div class="space-y-4 flex flex-col font-title cursor-pointer text-2xl">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#about">About Me</a>
+        <a href="../index.html#cv">CV</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#internship">Internship</a>
     </div>
 </nav>
 
-<nav class="md:hidden w-full bg-darkpurple tracking-widest flex flex-col items-center top-0 fixed">
+<nav class="md:hidden w-full bg-darkpurple tracking-widest flex flex-col items-center top-0 fixed z-10">
     <div class="w-full self-start flex flex-row flex-no-wrap justify-between items-center">
         <a href="../index.html#home" class="no-underline pl-4 py-1 cursor-pointer">
             <span class="font-title text-2xl">Maxim Snoeys</span>
         </a>
-        <button id="menuBtn" class="block focus:outline-none py-2 pr-4 ml-auto" onclick="navToggle()"
-                aria-label="Navigation">
-            <span class="fas fa-bars fa-2x"></span>
+        <button id="menuBtn" class="block focus:outline-none py-2 pr-4 ml-auto" onclick="navToggle()" aria-label="Navigation">
+            <i class="fas fa-bars fa-2x"></i>
         </button>
     </div>
     <div id="menu" class="w-full self-end flex-col h-full pt-4 hidden text-center">
@@ -74,36 +75,33 @@
             </div>
 
             <div class="flex flex-wrap mx-4 lg:mx-16 mt-8 lg:mt-16">
-                <div class="basis-full 2xl:basis-1/3 3xl:basis-1/2 justify-center my-auto 2xl:pr-8 3xl:pr-16">
+                <div class="basis-full 2xl:basis-2/5 3xl:basis-1/2 justify-center my-auto 2xl:pr-8 3xl:pr-16">
                     <div class="text-justify grid grid-cols-1 space-y-4 bg-lightblack p-8 rounded-2xl">
                         <div class="space-y-4">
-                            <p>Me and Michiel Van Eynde made this website for LM-Sounds.</p>
-                            <p>We got asked to make a modern version of their current site build in Wix. To have a
-                                starting point we made some mockups
-                                which they gave feedback on what things they wanted changed. When they were satisfied
-                                with the mockups we started coding
-                                the website from the ground up with TailwindCSS.</p>
+                            <p>Me and another student made this website for LM-Sounds.</p>
+                            <p>We got asked to make a modern version of their current website, which was build in Wix. To have a
+                                starting point we made some mockups which they gave feedback on what things they wanted to be changed. When they were satisfied
+                                with the mockups we started coding the website from the ground up with TailwindCSS.</p>
                         </div>
                         <div class="space-y-4">
-                            <p>In the beginning it was a bit of a search to find the right TailwindCSS classes but when
-                                we really understood how it worked
-                                it was a very powerful system to work with.</p>
-                            <p>There is not something that I have done specifically on my own, we've each made and
-                                adjusted something everywhere.</p>
+                            <p>It was the first time I used TailwindCSS in a real project, so it was a bit of a search to the right classes but once you understood how it worked it was a very powerful system to work with.</p>
+                            <p>There isn't something that I've done specifically on my own, we've both build, rebuild and adjusted each other's code everywhere.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="basis-full 2xl:basis-2/3 3xl:basis-1/2 my-auto pt-8">
+                <div class="basis-full 2xl:basis-3/5 3xl:basis-1/2 my-auto pt-8 2xl:pt-0">
                     <div id="image-slider" class="splide">
                         <div class="splide__track">
                             <ul class="splide__list">
                                 <li class="splide__slide flex">
+                                    <img src="../assets/lmsounds/landing.PNG" alt="LM-Sounds landing section" class="m-auto max-w-full">
+                                </li>
+                                <li class="splide__slide flex">
                                     <img src="../assets/lmsounds/dj.PNG" alt="LM-Sounds DJ" class="m-auto max-w-full">
                                 </li>
                                 <li class="splide__slide flex">
-                                    <img src="../assets/lmsounds/landing.PNG" alt="LM-Sounds landing page website"
-                                         class="m-auto max-w-full">
+                                    <img src="../assets/lmsounds/contact.jpg" alt="LM-Sounds Contact" class="m-auto max-w-full">
                                 </li>
                             </ul>
                         </div>
