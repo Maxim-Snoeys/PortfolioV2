@@ -490,6 +490,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -520,10 +524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-4 {
   margin-right: 1rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .mt-20 {
@@ -731,11 +731,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(174 131 165 / var(--tw-border-opacity));
 }
 
-.bg-darkblack {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 30 / var(--tw-bg-opacity));
-}
-
 .bg-darkpurple {
   --tw-bg-opacity: 1;
   background-color: rgb(77 58 77 / var(--tw-bg-opacity));
@@ -746,19 +741,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(45 39 48 / var(--tw-bg-opacity));
 }
 
+.bg-darkblack {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 30 / var(--tw-bg-opacity));
+}
+
 .bg-lightpurple {
   --tw-bg-opacity: 1;
   background-color: rgb(174 131 165 / var(--tw-bg-opacity));
 }
 
-.bg-blue-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .p-6 {
@@ -771,10 +770,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .py-1 {
@@ -858,6 +853,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Nunito, sans-serif;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -886,11 +886,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .font-semibold {
@@ -1088,6 +1083,14 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 100%;
   }
 
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1133,6 +1136,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .lg\:w-4\/12 {
     width: 33.333333%;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:basis-3\/4 {
@@ -1220,6 +1227,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
     flex: 0 1 auto;
   }
 
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
   }
@@ -1262,8 +1273,8 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 91.666667%;
   }
 
-  .\32xl\:basis-1\/2 {
-    flex-basis: 50%;
+  .\32xl\:w-full {
+    width: 100%;
   }
 
   .\32xl\:basis-2\/5 {
@@ -1272,6 +1283,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
   .\32xl\:basis-3\/5 {
     flex-basis: 60%;
+  }
+
+  .\32xl\:basis-1\/2 {
+    flex-basis: 50%;
   }
 
   .\32xl\:grid-cols-3 {
